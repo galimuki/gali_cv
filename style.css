@@ -1,0 +1,205 @@
+/* Тех. часть */
+.head_1{
+    background-color: transparent;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    padding: 10px 15px 15px 40px;
+}
+.container{
+    max-width: 750px;
+    margin: auto;
+    margin-top: 50px;
+}
+.info_1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+    .info_1 {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.ava_1{
+    width: 225px;
+    height: 300px;
+    border-radius: 28px;
+    box-shadow: 8px 8px 11px 3px rgba(0, 0, 0, 0.25);
+    background-image: url(Muki.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.art_1 {
+ background-color: white;
+ border-radius: 15px;
+ padding: 10px;
+
+}
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    background: cornsilk
+}
+/* Навигация */
+    .navbar {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        background: white;
+        margin-bottom: 15px;
+        display: flex;
+        text-align: center;
+        width: 750px;
+
+    }
+    .navbar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .navbar ul li {
+        margin-right: 10px;
+        padding: 10px;
+    }
+    .navbar ul li:last-child {
+        margin-right: 0px;
+    }
+    .navbar ul li:hover {
+        background-color: lightgoldenrodyellow;
+    }
+
+    @media (max-width: 700px) {
+        .navbar {
+           width: 100%;
+        }
+    }
+/* Образование */
+    .int_1 {
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px;
+        
+    }
+    .int_1 table{
+        width: 100%;
+    }
+
+    .int_1 table td, th {
+    text-align: center;
+    padding-bottom: 10px;
+    }
+
+    .int_1 table td:hover{
+        background-color: lightgoldenrodyellow;
+    }
+
+    .int_1 table tr:hover{
+        background-color: rgb(245, 229, 137);
+    }
+/* Работа */
+    .wr_1 {
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .wr_1 table {
+        width: 100%;
+    }
+    .wr_1 table td, th {
+        text-align: center;
+        padding-bottom: 10px;
+        }
+    .wr_1 table td:hover{
+            background-color: lightgoldenrodyellow;
+        }
+        
+    .wr_1 table tr:hover{
+            background-color: rgb(245, 229, 137);
+        }
+
+/* Навыки */
+    .skls_1 {
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .skls_1 ol li:hover {
+        background-color: lightgoldenrodyellow;
+    }
+
+/* Хобби */
+    .hb_1 {
+        background-color: white;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .hb_1 ul li:hover {
+        background-color: lightgoldenrodyellow;
+    }
+/* Links */
+    a {
+    color: black;
+    text-decoration: double;   
+    }
+    a:hover{
+        color: gold;
+        /* font-size: 10px; */
+    }
+    .btn_1{
+        background-color: white;
+        padding: 10px;
+        border: 10px;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+
+/* Форма */
+    .frm_1 h2{
+        text-align: center;
+    }
+    .form-gr label {
+        display: block;
+        font-size: 14px;
+    }
+    .form-rw{
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .form-rw .form-gr{
+        margin-right: 20px;
+        width: 50%;
+        
+    }
+    .form-gr .form-rw:last-child{
+        margin-right: 0px;
+    }
+    .form-gr input, .form-gr textarea {
+        width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px 0px 10px;
+    }
+    .btn_2{
+        max-width: 50%;
+        text-align: center;
+    }
+    @media (max-width: 700px) {
+        .form_rw {
+           display: block;
+        }
+    
+        .form-rw, .form-gr {
+            width: 100%;
+            margin-right: 0%;
+            margin-bottom: 10px;
+            display: block;
+        }
+    }
+/* }Foot */
+    .spc_1{ 
+        height: 125px;
+    }
